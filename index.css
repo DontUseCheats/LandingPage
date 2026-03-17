@@ -1,0 +1,50 @@
+/* index.css */
+
+.flexcontainer {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 200px;
+}
+
+.box2 {
+    background-color: white;
+    height: 200px;
+}
+
+.box3 {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+
+.box4 {
+    background-color: white;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Blue Box stuff below */
+
+.bluebox {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Stuff below */
+
+.footer {
+    background-color:#1F2937;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
