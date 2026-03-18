@@ -2,7 +2,6 @@
 body {
     margin: 0px;
     background: white;
-
 }
 
 ul {
@@ -44,7 +43,8 @@ p {
 .headertext,
 .links,
 .header2,
-.headerboxes {
+.headerboxes,
+.container2header {
     margin-right: 60px;
     margin-left: 60px;
 }
@@ -83,4 +83,45 @@ p {
 
 .signupbox p {
     text-align: center;
+}
+
+/* Second BOX */
+
+.container2 {
+    color: black;
+}
+
+.container2header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.boxrow {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box1 .empty {
+    border: 3px solid blue;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box1 {
+    flex: 1;
+}
+
+.box1 p {
+    text-align: center;
+    padding-bottom: 40px;
 }
