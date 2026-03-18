@@ -15,13 +15,16 @@ ul {
 
 .headertext,
 .header,
-.links {
+.links,
+.headerbox1,
+.headerboxes {
     display: flex;
     color: white;
     font-family: sans-serif;
 }
 
-.headertext {
+.headertext,
+.biggertext {
     font-weight: bold;
     font-size: 20px;
 }
@@ -32,11 +35,38 @@ p {
 
 .header {
     justify-content: space-between;
-    background-color: #1F2937;
+}
+
+.container1 {
+        background-color: #1F2937;
 }
 
 .headertext,
-.links {
+.links,
+.header2,
+.headerboxes {
     margin-right: 60px;
     margin-left: 60px;
+}
+
+.headerboxes {
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.biggertext {
+    font-size: 35px;
+}
+.headerbox1 {
+    flex-direction: column;
+}
+
+.smallertext {
+    filter: contrast(0.7);
+}
+
+.space {
+    margin: 3px;
+    padding-right: 30px;
 }
