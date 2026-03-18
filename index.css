@@ -70,3 +70,17 @@ p {
     margin: 3px;
     padding-right: 30px;
 }
+
+.signupbox {
+    font-weight: bold;
+    background-color: #3882F6;
+    width: fit-content;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.signupbox p {
+    text-align: center;
+}
