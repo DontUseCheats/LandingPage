@@ -156,6 +156,8 @@ p {
     display: flex;
     justify-content: center;
     padding: 45px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .adbox {
@@ -201,4 +203,14 @@ p {
 
 .adbox {
     padding-right: 70px;
+}
+
+/* Footer Below */
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
