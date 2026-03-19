@@ -149,3 +149,56 @@ p {
 .thor {
     text-align: right;
 }
+
+/* Container 4 Below */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0;
+}
+
+.adbox {
+    background-color:#3882F6;
+    border-radius: 15px;
+    display: flex;
+}
+
+.adboxcontent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.adtext {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.adboxcontent p {
+    filter: contrast(0.9);
+}
+
+
+.adboxcontent p {
+    margin: 0px;
+}
+
+.signupbox2 {
+  border: 2px solid white;
+  color: white;
+  align-self: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+
+}
+
+
+.adbox {
+    padding-right: 70px;
+}
